@@ -15,12 +15,6 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# node-waf configuration
-.lock-wscript
-
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -34,16 +28,13 @@ node_modules
 .node_repl_history
 
 *.map
---no-cache
-.idea
-config.json
+
 .Ds_Store
-wechat-info*.json
-Gemfile
-Gemfile.lock
-_site/
-#package-lock.json
-cert
+.idea/
+.vscode/
+dist/
+cert/
+
+config.json
 db_*.json
-dist
 .env
