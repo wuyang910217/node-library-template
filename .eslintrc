@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "no-cond-assign": 2,
+    "no-param-reassign": 0,
+    "quotes": 0,
+    "no-console": 1
+  }
+}
