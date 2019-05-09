@@ -7,7 +7,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 const webpackConfig = {
   mode: process.env.NODE_ENV,
-  entry: ['./lib/index.js'],
+  entry: ['babel-polyfill', './lib/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
@@ -27,6 +27,7 @@ const webpackConfig = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-transform-runtime'],
           },
         },
       },
