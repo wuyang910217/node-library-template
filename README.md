@@ -17,5 +17,3 @@
 项目依赖以下库，可以在你的程序里直接使用，不用再次安装
 
 - debug
-- babel-polyfill
-- babel-runtime
