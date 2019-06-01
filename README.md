@@ -17,3 +17,8 @@
 项目依赖以下库，可以在你的程序里直接使用，不用再次安装
 
 - debug
+
+## 更新-发布包
+
+- 更新版本 npm version patch
+- 发布 npm publish
