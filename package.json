@@ -27,17 +27,20 @@
   "homepage": "https://github.com/wuyang910217/node-library-template",
   "license": "MIT",
   "dependencies": {
-    "debug": "^4.1.1"
+    "@babel/runtime": "^7.4.5",
+    "core-js": "^2.6.9",
+    "debug": "^3.2.6"
   },
   "peerDependencies": {
-    "debug": "^4.1.1"
+    "debug": "^3.2.6",
+    "core-js": "^2.6.9",
+    "@babel/runtime": "^7.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.3",
-    "@babel/runtime": "^7.4.4",
+    "@babel/runtime-corejs2": "^7.4.5",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
